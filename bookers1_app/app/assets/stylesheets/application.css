@@ -1,0 +1,74 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+* { /*全体*/
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{ /*body tag*/
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 20px;
+  margin: 33px;
+}
+
+h1{
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+
+.field{
+  margin-bottom: 5px;
+}
+
+.newbook{
+  margin-bottom: 5px;
+}
+
+.star{
+  margin-bottom: 5px;
+}
+
+.new{
+  display: block;
+}
+
+.speed{
+  text-align: center;/*中央ぞろえ*/
+}
+
+p, ol, ul, td {
+  margin: 33px;
+}
+
+.field_with_errors{ /*クラス*/
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+#notice {
+    color: green;
+}
+
+td{
+  padding-bottom: 7px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
